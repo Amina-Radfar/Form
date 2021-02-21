@@ -9,36 +9,49 @@
 </head>
 
 <body>
-    <h id="title">The Covide 19 Side effects</h>
-    <p id="description">CDC is actively working to learn more about the whole range of short- and long-term health effects associated with COVID-19. As the pandemic unfolds, we are learning that many organs besides the lungs are affected by COVID-19 and there are many ways
-        the infection can affect someone’s health.</p>
-    <form action="" id="survey-form">
-        <label id="name-label">Name:</label>
-        <input type="text" id="name" placeholder="please inter your name" required>
-        <label id="email-label">email:</label>
-        <input type="email" name="email" placeholder="please inter your email" id="email" required>
-        <label id="number-label"> Age:</label>
-        <input type="number" required min="15" max="38" placeholder="age" id="number">
-        <label>Your Favourite Movie <Select id="dropdown">
+    <header>
+        <h1 id="title">Covid 19 Survey Form</h1>
+
+        <p id="description">CDC is actively working to learn more about the whole range of short- and long-term health effects associated with COVID-19. As the pandemic unfolds, we are learning that many organs besides the lungs are affected by COVID-19 and there are many
+            ways the infection can affect someone’s health.</p>
+        <form action="" id="survey-form">
+            <label id="name-label">Name:</label>
+            <input type="text" id="name" placeholder="please inter your name" required>
+            <label id="email-label">email:</label>
+            <input type="email" name="email" placeholder="please inter your email" id="email" required>
+            <label id="number-label"> Age:</label>
+            <input type="number" required min="15" max="38" placeholder="age" id="number">
+            <label>Your Favourite Movie <Select id="dropdown">
             <option> The Parent Trap</option>
             <option>The Tatanic</option>
             <option>Boss baby</option>
             <option>Big Foot</option>
         </Select>
     </label>
-        <label>Text-box</label>
-        <input id="my-text" type="text-box" value="your text here">
-        <br>
-        <label>Select Your Gender</label>
-        <div>Male</div>
-        <input id="male" type="radio" name="gender" value="male">
-        <div>Female</div>
-        <input id="female" type="radio" name="gender" value="female">
-        <div>Ohter</div>
-        <input id="other" type="radio" name="gender" value="other">
-    </form>
+            <label>Text-box</label>
+            <input id="my-text" type="text-box" value="your text here">
+            <br>
+            <label>Select Your Gender</label>
+            <div>Male</div>
+            <input id="male" type="radio" name="gender" value="male">
+            <div>Female</div>
+            <input id="female" type="radio" name="gender" value="female">
+            <div>Ohter</div>
+            <input id="other" type="radio" name="gender" value="other">
+            <br>
+            <label>Select your best choices</label>
+            <br>
+            <input id="Sophi's World" type="checkbox" name="Select your best choices" value="Sophi's World">
+            <div>Sophi's World</div>
+            <br>
+            <input id="Sapians" name="Select your best choices" type="checkbox" value="Sapians">
+            <div>Sapians</div>
+            <label><textarea placeholder="Your Message"></textarea></label>
+            <input type="submit" id="submit">
+        </form>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </header>
 </body>
 
 </html>
