@@ -13,13 +13,29 @@
     <p id="description">CDC is actively working to learn more about the whole range of short- and long-term health effects associated with COVID-19. As the pandemic unfolds, we are learning that many organs besides the lungs are affected by COVID-19 and there are many ways
         the infection can affect someone’s health.</p>
     <form action="" id="survey-form">
-        <label for="name">Name</label>
-        <input id="name-lable" type="text" id="name" required>
-        <label for="email">email</label>
-        <input id="email-lable" type="email" name="email" id="email" required>
-        <label for="number" required min="18" max="25"> Number</label>
-        <input id="number-lable" type="number" id="number">
-
+        <label id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="please inter your name" required>
+        <label id="email-label">email:</label>
+        <input type="email" name="email" placeholder="please inter your email" id="email" required>
+        <label id="number-label"> Age:</label>
+        <input type="number" required min="15" max="38" placeholder="age" id="number">
+        <label>Your Favourite Movie <Select id="dropdown">
+            <option> The Parent Trap</option>
+            <option>The Tatanic</option>
+            <option>Boss baby</option>
+            <option>Big Foot</option>
+        </Select>
+    </label>
+        <label>Text-box</label>
+        <input id="my-text" type="text-box" value="your text here">
+        <br>
+        <label>Select Your Gender</label>
+        <div>Male</div>
+        <input id="male" type="radio" name="gender" value="male">
+        <div>Female</div>
+        <input id="female" type="radio" name="gender" value="female">
+        <div>Ohter</div>
+        <input id="other" type="radio" name="gender" value="other">
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
