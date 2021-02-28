@@ -1,0 +1,41 @@
+body{
+background-color: antiquewhite;
+}
+#title{
+    color: rgb(16, 10, 32);
+    font-size:xx-large;
+    font-style: italic;
+    text-align: center;
+}
+#description{
+ 
+    justify-content: left;
+    font-size: 20px;
+}
+.container{
+    width: 50%;
+    background-color: rgb(195, 203, 247);
+    padding: 30px;
+    margin: auto;
+}
+.Form-group{
+    width:100%;
+    height: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
+.radio , .checkbox{
+    display: inline-block;
+}
+textarea{
+    padding: 70px;
+    background-color: rgb(158, 155, 140);
+    width: 80%;
+}
+#submit{
+    margin: auto;
+    display: flex;
+    width: 60%;
+    text-align: center;
+}
+

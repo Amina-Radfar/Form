@@ -6,52 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/Style.css">
 </head>
 
 <body>
-    <header>
-        <h1 id="title">Covid 19 Survey Form</h1>
+    <div class="container">
+        <header>
+            <h1 id="title">Covid 19 Survey Form</h1>
 
-        <p id="description">CDC is actively working to learn more about the whole range of short- and long-term health effects associated with COVID-19. As the pandemic unfolds, we are learning that many organs besides the lungs are affected by COVID-19 and there are many
-            ways the infection can affect someone’s health.</p>
-        <form action="" id="survey-form">
-            <label id="name-label">Name:</label>
-            <input type="text" id="name" placeholder="please inter your name" required>
-            <label id="email-label">email:</label>
-            <input type="email" name="email" placeholder="please inter your email" id="email" required>
-            <label id="number-label"> Age:</label>
-            <input type="number" required min="15" max="38" placeholder="age" id="number">
-            <label>Your Favourite Movie <Select id="dropdown">
-            <option> The Parent Trap</option>
-            <option>The Tatanic</option>
-            <option>Boss baby</option>
-            <option>Big Foot</option>
-        </Select>
-    </label>
-            <label>Text-box</label>
-            <input id="my-text" type="text-box" value="your text here">
-            <br>
-            <label>Select Your Gender</label>
-            <div>Male</div>
-            <input id="male" type="radio" name="gender" value="male">
-            <div>Female</div>
-            <input id="female" type="radio" name="gender" value="female">
-            <div>Ohter</div>
-            <input id="other" type="radio" name="gender" value="other">
-            <br>
-            <label>Select your best choices</label>
-            <br>
-            <input id="Sophi's World" type="checkbox" name="Select your best choices" value="Sophi's World">
-            <div>Sophi's World</div>
-            <br>
-            <input id="Sapians" name="Select your best choices" type="checkbox" value="Sapians">
-            <div>Sapians</div>
-            <label><textarea placeholder="Your Message"></textarea></label>
-            <input type="submit" id="submit">
-        </form>
+            <p id="description">The two-shot Pfizer vaccine is highly effective at preventing severe COVID-19, according to an analysis of more than one million people in Israel.
 
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    </header>
+               <br> Ran Balicer at Clalit Health Services in Tel Aviv, Israel, and his colleagues matched 596,618 people vaccinated as part of a nationwide campaign with an unvaccinated ‘twin’ of the same age, sex, ethnicity and neighbourhood of residence.<br> The pairs also had a matching number of medical conditions and shared other characteristics (N. Dagan et al. N. Engl. J. Med. https://doi.org/fw7w; 2021).
+                
+                The researchers found that,<br> at 7 days or more after the second shot, Pfizer’s vaccine was 94% effective at preventing COVID-19 and 92% effective against severe disease.<br> The results were consistent across all age groups, including in people aged 70 and older. The results were strikingly close to efficacy estimates from clinical trials, despite being based on jabs administered in less stringently controlled settings and more diverse populations, including people with multiple health problems.
+                
+                The study also covered a period when the emerging variant called B.1.1.7 was circulating widely in Israel, which suggests that the vaccine is effective at preventing COVID-19 caused by that variant.</p>
+            <form action="" id="survey-form">
+                <label id="name-label">Name: <input type="text" id="name" placeholder="please inter your name" required
+                        class="Form-group"></label>
+                <label id="email-label">email:
+                <input type="email" name="email" placeholder="please inter your email" id="email" required
+                    class="Form-group"></label>
+                <label id="number-label"> Age:
+                <input type="number" required min="15" max="38" placeholder="age" id="number" class="Form-group"></label>
+                <label>What is your employment status <Select id="dropdown" class="Form-group">
+                        <option> Part time </option>
+                        <option>Full time</option>
+                        <option>Self-Employed</option>
+                        <option>Unemployed</option>
+                    </Select>
+                </label>
+                <br><label>Text-box
+                <input id="my-text" type="text-box" value="your text here" class="Form-group"></label>
+               <br>
+                <br>
+                <label>Select Your Gender</label>
+                Male
+                <input id="male" type="radio" name="gender" value="male" class="radio">
+                Female
+                <input id="female" type="radio" name="gender" value="female" class="radio">
+                Ohter
+                <input id="other" type="radio" name="gender" value="other" class="radio">
+                <br>
+                <br>
+                <label>Do you want to take covide 19 vaccine</label>
+                <br>
+                <br>
+                <input id="Yes" type="checkbox" name="Do you want to take covide 19 vaccine" value="Sophi's World"
+                    class="checkbox">
+                Yes
+                
+                <input id="No" name="Do you want to take covide 19 vaccine" type="checkbox" value="No" class="checkbox">
+                No
+                <br><label><textarea placeholder="Your Message"></textarea></label>
+                <br><input type="submit" id="submit">
+            </form>
+
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </header>
+    </div>
 </body>
 
 </html>
